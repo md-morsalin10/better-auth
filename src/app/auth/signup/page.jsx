@@ -26,13 +26,7 @@ const SignUpPage = () => {
         if(data){
             alert('sing up successful')
         }
-        
-        // const data = {};
-        // // Convert FormData to plain object
-        // formData.forEach((value, key) => {
-        //     data[key] = value.toString();
-        // });
-        // alert(`Form submitted with: ${JSON.stringify(data, null, 2)}`);
+
     };
     return (
         <div className="flex flex-col justify-center py-2 items-center">
