@@ -31,7 +31,7 @@ const SignUpPage = () => {
     return (
         <div className="flex flex-col justify-center py-2 items-center">
             <h1>SingUpPagE</h1>
-            <Form className="flex w-96 flex-col gap-4" onSubmit={onSubmit}>
+            <Form className="flex w-95 flex-col gap-4" onSubmit={onSubmit}>
                 {/* name */}
                 <TextField
                     isRequired
